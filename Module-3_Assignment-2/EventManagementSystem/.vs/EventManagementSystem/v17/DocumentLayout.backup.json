@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ariff\\OneDrive\\Desktop\\ASP.NET-8-Assignments\\Module-3_Assignment-2\\EventManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9929DF8D-FDB8-4AB1-81A8-307BDF69A8A5}|EventManagementSystem.csproj|c:\\users\\ariff\\onedrive\\desktop\\asp.net-8-assignments\\module-3_assignment-2\\eventmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9929DF8D-FDB8-4AB1-81A8-307BDF69A8A5}|EventManagementSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929DF8D-FDB8-4AB1-81A8-307BDF69A8A5}|EventManagementSystem.csproj|c:\\users\\ariff\\onedrive\\desktop\\asp.net-8-assignments\\module-3_assignment-2\\eventmanagementsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9929DF8D-FDB8-4AB1-81A8-307BDF69A8A5}|EventManagementSystem.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929DF8D-FDB8-4AB1-81A8-307BDF69A8A5}|EventManagementSystem.csproj|c:\\users\\ariff\\onedrive\\desktop\\asp.net-8-assignments\\module-3_assignment-2\\eventmanagementsystem\\views\\user\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9929DF8D-FDB8-4AB1-81A8-307BDF69A8A5}|EventManagementSystem.csproj|solutionrelative:views\\user\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929DF8D-FDB8-4AB1-81A8-307BDF69A8A5}|EventManagementSystem.csproj|c:\\users\\ariff\\onedrive\\desktop\\asp.net-8-assignments\\module-3_assignment-2\\eventmanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9929DF8D-FDB8-4AB1-81A8-307BDF69A8A5}|EventManagementSystem.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929DF8D-FDB8-4AB1-81A8-307BDF69A8A5}|EventManagementSystem.csproj|c:\\users\\ariff\\onedrive\\desktop\\asp.net-8-assignments\\module-3_assignment-2\\eventmanagementsystem\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9929DF8D-FDB8-4AB1-81A8-307BDF69A8A5}|EventManagementSystem.csproj|solutionrelative:controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929DF8D-FDB8-4AB1-81A8-307BDF69A8A5}|EventManagementSystem.csproj|c:\\users\\ariff\\onedrive\\desktop\\asp.net-8-assignments\\module-3_assignment-2\\eventmanagementsystem\\views\\event\\upcomingevents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9929DF8D-FDB8-4AB1-81A8-307BDF69A8A5}|EventManagementSystem.csproj|solutionrelative:views\\event\\upcomingevents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929DF8D-FDB8-4AB1-81A8-307BDF69A8A5}|EventManagementSystem.csproj|c:\\users\\ariff\\onedrive\\desktop\\asp.net-8-assignments\\module-3_assignment-2\\eventmanagementsystem\\views\\event\\allevents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9929DF8D-FDB8-4AB1-81A8-307BDF69A8A5}|EventManagementSystem.csproj|solutionrelative:views\\event\\allevents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929DF8D-FDB8-4AB1-81A8-307BDF69A8A5}|EventManagementSystem.csproj|c:\\users\\ariff\\onedrive\\desktop\\asp.net-8-assignments\\module-3_assignment-2\\eventmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9929DF8D-FDB8-4AB1-81A8-307BDF69A8A5}|EventManagementSystem.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ariff\\OneDrive\\Desktop\\ASP.NET-8-Assignments\\Module-3_Assignment-2\\EventManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ariff\\OneDrive\\Desktop\\ASP.NET-8-Assignments\\Module-3_Assignment-2\\EventManagementSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T14:03:47.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ariff\\OneDrive\\Desktop\\ASP.NET-8-Assignments\\Module-3_Assignment-2\\EventManagementSystem\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ariff\\OneDrive\\Desktop\\ASP.NET-8-Assignments\\Module-3_Assignment-2\\EventManagementSystem\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T14:02:08.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ariff\\OneDrive\\Desktop\\ASP.NET-8-Assignments\\Module-3_Assignment-2\\EventManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ariff\\OneDrive\\Desktop\\ASP.NET-8-Assignments\\Module-3_Assignment-2\\EventManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T13:11:58.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Users.cshtml",
+              "DocumentMoniker": "C:\\Users\\ariff\\OneDrive\\Desktop\\ASP.NET-8-Assignments\\Module-3_Assignment-2\\EventManagementSystem\\Views\\User\\Users.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Users.cshtml",
+              "ToolTip": "C:\\Users\\ariff\\OneDrive\\Desktop\\ASP.NET-8-Assignments\\Module-3_Assignment-2\\EventManagementSystem\\Views\\User\\Users.cshtml",
+              "RelativeToolTip": "Views\\User\\Users.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-07T13:09:20.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpcomingEvents.cshtml",
+              "DocumentMoniker": "C:\\Users\\ariff\\OneDrive\\Desktop\\ASP.NET-8-Assignments\\Module-3_Assignment-2\\EventManagementSystem\\Views\\Event\\UpcomingEvents.cshtml",
+              "RelativeDocumentMoniker": "Views\\Event\\UpcomingEvents.cshtml",
+              "ToolTip": "C:\\Users\\ariff\\OneDrive\\Desktop\\ASP.NET-8-Assignments\\Module-3_Assignment-2\\EventManagementSystem\\Views\\Event\\UpcomingEvents.cshtml",
+              "RelativeToolTip": "Views\\Event\\UpcomingEvents.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-07T13:01:22.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AllEvents.cshtml",
+              "DocumentMoniker": "C:\\Users\\ariff\\OneDrive\\Desktop\\ASP.NET-8-Assignments\\Module-3_Assignment-2\\EventManagementSystem\\Views\\Event\\AllEvents.cshtml",
+              "RelativeDocumentMoniker": "Views\\Event\\AllEvents.cshtml",
+              "ToolTip": "C:\\Users\\ariff\\OneDrive\\Desktop\\ASP.NET-8-Assignments\\Module-3_Assignment-2\\EventManagementSystem\\Views\\Event\\AllEvents.cshtml",
+              "RelativeToolTip": "Views\\Event\\AllEvents.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-07T13:01:00.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\ariff\\OneDrive\\Desktop\\ASP.NET-8-Assignments\\Module-3_Assignment-2\\EventManagementSystem\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\ariff\\OneDrive\\Desktop\\ASP.NET-8-Assignments\\Module-3_Assignment-2\\EventManagementSystem\\Controllers\\EventController.cs",
+              "RelativeToolTip": "Controllers\\EventController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T12:52:33.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ariff\\OneDrive\\Desktop\\ASP.NET-8-Assignments\\Module-3_Assignment-2\\EventManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ariff\\OneDrive\\Desktop\\ASP.NET-8-Assignments\\Module-3_Assignment-2\\EventManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAB8AAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-07T10:26:17.317Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
