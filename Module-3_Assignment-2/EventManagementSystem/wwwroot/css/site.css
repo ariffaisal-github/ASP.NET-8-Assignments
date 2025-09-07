@@ -19,4 +19,21 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: #e1dfdd;
+}
+
+.custom-navbar {
+    background-color: white; /* yellowish */
+}
+
+.custom-navbar .nav-link {
+    color: #000 !important; /* black text */
+}
+
+.custom-navbar .nav-link:hover {
+    color: #333 !important; /* slightly darker on hover */
+}
+
+.custom-navbar .navbar-brand {
+    color: #000 !important; /* black brand text */
 }
