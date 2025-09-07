@@ -1,7 +1,7 @@
-﻿@model List<EventManagementSystem.Models.UserViewModel>
+﻿@model List<UserViewModel>
 
-<table class="table">
-    <thead>
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
         <tr>
             <th>First Name</th>
             <th>Last Name</th>
@@ -18,7 +18,25 @@
                 <td>@user.LastName</td>
                 <td>@user.Email</td>
                 <td>@user.ContactNumber</td>
-                <td>@user.UserType</td>
+                <td>
+                    @switch (user.UserType) {
+                        case UserType.Admin:
+                            @:Admin User
+                            break;
+                        case UserType.Standard:
+                            @:Standard User
+                            break;
+                        case UserType.External:
+                            @:External User
+                            break;
+                        case UserType.Guest:
+                            @:Guest User
+                            break;
+                        default:
+                            @:Unknown
+                            break;
+                    }
+                </td>
                 <td>@user.Address</td> 
             </tr>
         }
