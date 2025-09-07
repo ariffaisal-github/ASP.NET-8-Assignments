@@ -28,7 +28,7 @@ namespace EventManagementSystem
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Event}/{action=UpcomingEvents}/{id?}");
 
             app.Run();
         }
