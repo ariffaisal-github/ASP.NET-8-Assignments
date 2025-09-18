@@ -3,17 +3,30 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace LibraryManagement.Controllers {
     public class BookController : Controller {
-        private List<BookViewModel> _books;
+
+        private static List<BookViewModel>? _books;
         public BookController() {
-            _books = new List<BookViewModel>();
-            CreateDummyBooks();
+            if (_books == null) {
+                _books = new List<BookViewModel>();
+                CreateDummyBooks();
+            }
         }
         public IActionResult GetAll() {
             return View(_books);
         }
+
         public IActionResult Edit(int bookId) {
             BookViewModel? selectedBook = _books.FirstOrDefault(b => b.Id == bookId);
             return View(selectedBook);
+        }
+
+        [HttpPost]
+        public IActionResult Update(BookViewModel updatedBook) {
+            var book = _books.FirstOrDefault(b => b.Id == updatedBook.Id);
+            book.Author = updatedBook.Author;
+            book.Title = updatedBook.Title;
+            book.Genre = updatedBook.Genre;
+            return RedirectToAction("GetAll");
         }
 
         private void CreateDummyBooks() {
