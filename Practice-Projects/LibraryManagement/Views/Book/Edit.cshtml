@@ -1,0 +1,18 @@
+﻿@model BookViewModel
+
+<div>
+    <h2>Edit Book</h2>
+    <form>
+        <input type="hidden" id="Id" name="Id" asp-for="Id" class="form-control" />
+
+        <label for="Title">Title:</label>
+        <input type="text" id="Title" name="Title" asp-for="Title" class="form-control" />
+        <br />
+        <label for="Author">Author:</label>
+        <input type="text" id="Author" name="Author" asp-for="Author" class="form-control" />
+        <br />
+        <label for="Genre">Genre:</label>
+        <input type="text" id="Genre" name="Genre" asp-for="Genre" class="form-control" />
+        <br />
+    </form>
+</div>

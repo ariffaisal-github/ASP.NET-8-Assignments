@@ -11,6 +11,10 @@ namespace LibraryManagement.Controllers {
         public IActionResult GetAll() {
             return View(_books);
         }
+        public IActionResult Edit(int bookId) {
+            BookViewModel? selectedBook = _books.FirstOrDefault(b => b.Id == bookId);
+            return View(selectedBook);
+        }
 
         private void CreateDummyBooks() {
             _books.Add(new BookViewModel { Id = 1, Title = "The Great Gatsby", Author = "F. Scott Fitzgerald", Genre = "Fiction" });
