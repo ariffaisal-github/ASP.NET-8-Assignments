@@ -18,11 +18,12 @@
         @foreach (BookViewModel book in Model) {
             <tr>
                 <td>@book.Id</td>
-                <td>@book.Title</td>
+                <td>@book.Title</td> 
                 <td>@book.Author</td>
                 <td>@book.Genre</td>
                 <td>
-                    <a class="nav-link" asp-controller="Book" asp-action="Edit" asp-route-bookId=@book.Id>Edit</a>
+                    <a class="btn btn-sm btn-primary me-2" asp-controller="Book" asp-action="Edit" asp-route-bookId="@book.Id">Edit</a>
+                    <a class="btn btn-sm btn-danger" asp-controller="Book" asp-action="Delete" asp-route-bookId="@book.Id">Delete</a>
                 </td>
             </tr>
         }

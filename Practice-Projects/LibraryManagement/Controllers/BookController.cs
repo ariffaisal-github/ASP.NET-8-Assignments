@@ -29,6 +29,12 @@ namespace LibraryManagement.Controllers {
             return RedirectToAction("GetAll");
         }
 
+        public IActionResult Delete(int bookId) {
+            var selectedBook = _books.FirstOrDefault(b => b.Id == bookId);
+            _books.Remove(selectedBook);
+            return RedirectToAction("GetAll");
+        }
+
         private void CreateDummyBooks() {
             _books.Add(new BookViewModel { Id = 1, Title = "The Great Gatsby", Author = "F. Scott Fitzgerald", Genre = "Fiction" });
             _books.Add(new BookViewModel { Id = 2, Title = "To Kill a Mockingbird", Author = "Harper Lee", Genre = "Fiction" });
