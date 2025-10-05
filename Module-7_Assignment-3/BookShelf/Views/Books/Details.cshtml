@@ -1,0 +1,16 @@
+@model BookShelf.Models.Book
+@{
+    ViewData["Title"] = "Details";
+}
+<h1 class="h3">Book Details</h1>
+<div class="card my-3">
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-2">Title</dt><dd class="col-sm-10">@Model.Title</dd>
+            <dt class="col-sm-2">Author</dt><dd class="col-sm-10">@Model.Author</dd>
+            <dt class="col-sm-2">Price</dt><dd class="col-sm-10">@Model.Price.ToString("C")</dd>
+        </dl>
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
+        <a asp-action="Index" class="btn btn-secondary">Back</a>
+    </div>
+</div>

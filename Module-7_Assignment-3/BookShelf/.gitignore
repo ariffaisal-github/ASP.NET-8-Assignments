@@ -1,0 +1,75 @@
+## Ignore Visual Studio temporary files, build results, and cache
+
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio 2022+ backups
+.vs/
+.vscode/
+
+# Logs
+Logs/
+*.log
+
+# Publish output
+wwwroot/dist/
+wwwroot/lib/
+publish/
+out/
+*.publish.xml
+
+# Build artifacts
+*.dll
+*.exe
+*.pdb
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Auto-generated files
+Generated Files/
+
+# Dependency caches
+packages/
+.nuget/
+*.nupkg
+
+# IDE settings
+*.dbmdl
+*.dbproj.schemaview
+*.dbmdl
+*.jfm
+*.vssscc
+*.vsscc
+*.scc
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Rider
+.idea/
+
+# OS files
+Thumbs.db
+ehthumbs.db
+.DS_Store
+*.swp
+
+# Environment and secrets
+appsettings.Development.json
+secrets.json
+
+# Optional: node-related (if you later use npm or gulp)
+node_modules/
+npm-debug.log
+yarn-error.log
